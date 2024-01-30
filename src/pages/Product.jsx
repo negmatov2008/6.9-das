@@ -16,6 +16,7 @@ function Product() {
   console.log(post);
   return (
     <div className="mx-[520px] pt-[95px]">
+      <h1 className="text-3xl mb-4 font-bold">Iltimos kutib turin</h1>
       <div className="carousel carousel-center max-w-[900px] p-4 space-x-4  cursor-pointer max-h-[500px] bg-neutral rounded-box">
         <div className="carousel-item">
           <img src={post && post.images[0]} className="rounded-box " />
